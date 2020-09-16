@@ -369,3 +369,9 @@ body {
         margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
